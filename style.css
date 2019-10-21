@@ -188,11 +188,57 @@ header {
 .product {
     background-color: #fafafa;
     text-align: center;
-    padding: 60px 10px 10px;
+    padding: 60px 10px;
 }
 
 /*** fine sezione "second" ***/
 /*** inizio sezione "third" ***/
+#third {
+    padding-top: 80px;
+}
+
+#slider {
+    background-image: url("https://helbiz.com/asset/pages/newhome/images/HelbizBanner.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+}
+
+#third-content {
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 80px;
+    height: 900px;
+    position: relative;
+}
+
+#third-content div img {
+    width: 392;
+    height: 630px;
+}
+
+#third-content-left {
+    float: left;
+    width: 30%;
+}
+
+#third-content-center {
+    width: 40%;
+    position: absolute;
+    top: -300px;
+    left: 300px;
+}
+
+#third-content-right {
+    width: 30%;
+    float: right;
+}
+
+#third-content-left h2 {
+    font-size: 36px;
+}
+
 /*** fine sezione "third" ***/
 /*** inizio sezione "third" ***/
 /*** fine sezione "third" ***/
