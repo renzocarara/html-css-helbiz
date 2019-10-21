@@ -209,7 +209,7 @@ header {
     width: 70%;
     margin: 0 auto;
     padding-top: 80px;
-    height: 900px;
+    position: relative;
 }
 
 #third-content div img {
@@ -225,14 +225,14 @@ header {
 #third-content-center {
     float: left;
     width: 40%;
-    position: relative;
-    bottom: 400px;
-    /* left: 375px; */
+    position: absolute;
+    top: -315px;
+    left: 30%;
 }
 
 #third-content-right {
     width: 30%;
-    float: left;
+    float: right;
 }
 
 #third-content-left h2 {
@@ -240,7 +240,15 @@ header {
 }
 
 /*** fine sezione "third" ***/
-/*** inizio sezione "third" ***/
-/*** fine sezione "third" ***/
+/*** inizio sezione "fourth" ***/
+#fourth-row {
+    background-image: url("https://helbiz.com/asset/pages/newhome/images/ScooterHelbiz-2400.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+/*** fine sezione "fourth" ***/
 /*** inizio sezione "instagram" ***/
 /*** fine sezione "instagram" ***/
