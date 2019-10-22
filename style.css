@@ -18,7 +18,7 @@
 }
 
 .main-container {
-    width: 75%;
+    width: 78%;
     margin: 0 auto;
 }
 
@@ -231,26 +231,28 @@ header {
 }
 
 #third-content-left {
+    text-align: center;
     float: left;
-    width: 30%;
+    width: 33%;
 }
 
 #third-content-center {
+    text-align: center;
     float: left;
-    width: 40%;
+    width: 34%;
     position: absolute;
     top: -315px;
-    left: 30%;
+    left: 33%;
 }
 
 #third-content-right {
-    width: 30%;
+    width: 33%;
     float: right;
 }
 
 #third-content-left h2 {
     font-size: 34px;
-    padding-left: 34px;
+    /* padding-left: 34px; */
 }
 
 /*** fine sezione "third" ***/
@@ -366,7 +368,7 @@ header {
 }
 
 #social-text a {
-    padding-right: 20px;
+    padding: 0 13px 5px;
 }
 
 #social-text h2 {
@@ -374,8 +376,6 @@ header {
     font-size: 32px;
 }
 
-/*** fine sezione "instagram" ***/
-/*** inizio footer ***/
 footer {
     margin-top: 40px;
     height: 714px;
@@ -400,13 +400,13 @@ footer ul li {
 }
 
 #footer-lists {
-    padding: 40px;
+    padding: 40px 0;
 }
 
 #footer-nav {
     padding: 30px 0;
-    border-top: 1px solid grey;
-    border-bottom: 1px solid grey;
+    /* border-top: 1px solid grey; */
+    /* border-bottom: 1px solid grey; */
 }
 
 #footer-nav ul li {
@@ -422,6 +422,25 @@ footer ul li {
 #footer-buttons {
     padding: 20px 0;
     text-align: center;
+}
+
+footer hr {
+    border: 0;
+    border-bottom: 1px solid #212121;
+    height: 5px;
+    width: 100%;
+}
+
+footer hr:nth-of-type(1) {
+    margin: 96px 0 30px;
+}
+
+footer hr:nth-of-type(2) {
+    margin: 30px 0;
+}
+
+#footer-buttons img {
+    padding-right: 15px;
 }
 
 /*** fine footer ***/
