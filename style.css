@@ -277,7 +277,6 @@ header {
 
 .col-text {
     padding-top: 20px;
-    display: inline-block;
 }
 
 .fourth-text {
@@ -367,6 +366,7 @@ header {
     font-size: 32px;
 }
 
+/*** inizio footer ***/
 footer {
     margin-top: 40px;
     padding: 50px 0;
@@ -378,6 +378,21 @@ footer {
 footer ul li {
     list-style-type: none;
     line-height: 2.0;
+}
+
+footer hr {
+    border: 0;
+    border-bottom: 1px solid #212121;
+    height: 5px;
+    width: 100%;
+}
+
+footer hr:nth-of-type(1) {
+    margin: 96px 0 30px;
+}
+
+footer hr:nth-of-type(2) {
+    margin: 30px 0;
 }
 
 #footer-lists li:not(:first-child) {
@@ -414,21 +429,6 @@ footer ul li {
 #footer-buttons {
     padding: 20px 0;
     text-align: center;
-}
-
-footer hr {
-    border: 0;
-    border-bottom: 1px solid #212121;
-    height: 5px;
-    width: 100%;
-}
-
-footer hr:nth-of-type(1) {
-    margin: 96px 0 30px;
-}
-
-footer hr:nth-of-type(2) {
-    margin: 30px 0;
 }
 
 #footer-buttons img {
